@@ -5,6 +5,10 @@
     --form-control-border-bottom: 1px solid var(--color-dark-indigo-30-flat);
     --form-control-bg-color: var(--color-dark-indigo-07);
 
+    /* text color */
+    --form-control-label-color: var(--color-dark-indigo-60-flat);
+    --form-control-sub-color: var(--color-dark-indigo-60-flat);
+
     /* paddings */
     --form-control-paddings: 1px var(--gap-s) 0;
     --form-control-l-paddings: 1px var(--gap-m) 0;
@@ -15,6 +19,7 @@
     /* disabled */
     --form-control-disabled-bg-color: var(--color-dark-indigo-15);
     --form-control-disabled-border-bottom: 1px dashed var(--color-dark-indigo-30-flat);
+    --form-control-disabled-label-color: var(--color-dark-indigo-60-flat);
 
     /* focus */
     --form-control-focus-shadow: inset 0 -1px var(--color-dark-indigo);
@@ -24,10 +29,12 @@
     --form-control-hover-bg-color: var(--color-dark-indigo-15);
 
     /* error */
-    --form-control-error-color: var(--color-red-brand-85-flat);
     --form-control-error-shadow: inset 0 -1px var(--form-control-error-color);
     --form-control-error-border-bottom: 1px solid var(--form-control-error-color);
     --form-control-error-icon-display: flex;
+    --form-control-error-color: var(--color-red-brand-85-flat);
+    --form-control-error-sub-color: var(--form-control-error-color);
+    --form-control-error-label-color: var(--form-control-label-color);
 
     /* font */
     --form-control-font-family: var(--font-family);
@@ -76,7 +83,7 @@
     min-height: 100%;
     left: var(--gap-s);
     right: 0;
-    color: var(--color-dark-indigo-60-flat);
+    color: var(--form-control-label-color);
     transform: translateY(0);
     transform-origin: 0 100%;
     transition-duration: 200ms;
@@ -112,7 +119,7 @@
 
     display: block;
     margin-top: var(--gap-2xs);
-    color: var(--color-dark-indigo-60-flat);
+    color: var(--form-control-sub-color);
 }
 
 .block {
@@ -198,7 +205,7 @@
 }
 
 .disabled .label {
-    color: var(--color-dark-indigo-60-flat);
+    color: var(--form-control-disabled-label-color);
 }
 
 /* FOCUS STATE */
@@ -229,6 +236,14 @@
 .hasError .inner {
     box-shadow: var(--form-control-error-shadow);
     border-bottom: var(--form-control-error-border-bottom);
+}
+
+.hasError .label {
+    color: var(--form-control-error-label-color);
+}
+
+.hasError .sub {
+    color: var(--form-control-error-sub-color);
 }
 
 .errorIcon {
