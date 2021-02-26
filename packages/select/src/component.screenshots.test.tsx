@@ -73,7 +73,7 @@ describe('Select | interactions tests', () => {
         const clip = { x: 0, y: 0, width: 300, height: 500 };
 
         try {
-            // await matchHtml({ page, expect, css, screenshotOpts: { clip } });
+            await matchHtml({ page, expect, css, screenshotOpts: { clip } });
 
             await page.click('[role="combobox"]');
 
