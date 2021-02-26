@@ -35,34 +35,34 @@ const hintErrorArrowCases = getComponentScreenshotTestCases({
 
 const clip = { x: 0, y: 0, width: 300, height: 100 };
 
-describe(
-    'Select | screenshots sizes, block and disabled',
-    screenshotTesting({ cases: sizesBlockDisabledCases, it, beforeAll, afterAll, expect }),
-);
+// describe(
+//     'Select | screenshots sizes, block and disabled',
+//     screenshotTesting({ cases: sizesBlockDisabledCases, it, beforeAll, afterAll, expect }),
+// );
 
-describe(
-    'Select | screenshots placeholder and label',
-    screenshotTesting({
-        cases: placeholderLabelCases,
-        it,
-        beforeAll,
-        afterAll,
-        expect,
-        screenshotOpts: { clip },
-    }),
-);
+// describe(
+//     'Select | screenshots placeholder and label',
+//     screenshotTesting({
+//         cases: placeholderLabelCases,
+//         it,
+//         beforeAll,
+//         afterAll,
+//         expect,
+//         screenshotOpts: { clip },
+//     }),
+// );
 
-describe(
-    'Select | screenshots hint, error and Arrow',
-    screenshotTesting({
-        cases: hintErrorArrowCases,
-        it,
-        beforeAll,
-        afterAll,
-        expect,
-        screenshotOpts: { clip },
-    }),
-);
+// describe(
+//     'Select | screenshots hint, error and Arrow',
+//     screenshotTesting({
+//         cases: hintErrorArrowCases,
+//         it,
+//         beforeAll,
+//         afterAll,
+//         expect,
+//         screenshotOpts: { clip },
+//     }),
+// );
 
 describe('Select | interactions tests', () => {
     test('Open select, select one item', async () => {
@@ -73,7 +73,7 @@ describe('Select | interactions tests', () => {
         const clip = { x: 0, y: 0, width: 300, height: 500 };
 
         try {
-            await matchHtml({ page, expect, css, screenshotOpts: { clip } });
+            // await matchHtml({ page, expect, css, screenshotOpts: { clip } });
 
             await page.click('[role="combobox"]');
 
@@ -81,7 +81,7 @@ describe('Select | interactions tests', () => {
 
             await page.click('[role="option"]');
 
-            await matchHtml({ page, expect, css, screenshotOpts: { clip } });
+            // await matchHtml({ page, expect, css, screenshotOpts: { clip } });
         } catch (error) {
             // eslint-disable-next-line no-console
             console.error(error);

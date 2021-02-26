@@ -84,6 +84,8 @@ export const matchHtml = async ({
 }: MatchHtmlParams) => {
     const pageHtml = await getPageHtml(page, css);
 
+    console.log(pageHtml);
+
     const image = await axios.post(
         playwrightUrl,
         {
