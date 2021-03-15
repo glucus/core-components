@@ -110,6 +110,11 @@
   resolved "https://registry.yarnpkg.com/@alfalab/icons-glyph/-/icons-glyph-1.102.0.tgz#5e403273e08bfce32719d571f9ab2cc121121546"
   integrity sha512-s4Y/kxRsAyGWjseauTUSQdQrDVDkauyLeVY0pJ0pQ5fSZkaFxZIXUYG9E1OpNhRPOfU9lJdnwY67zJE7jjIIjQ==
 
+"@alfalab/icons-glyph@^1.109.0":
+  version "1.110.0"
+  resolved "https://registry.yarnpkg.com/@alfalab/icons-glyph/-/icons-glyph-1.110.0.tgz#e8fa041209feec850eae299c3ee452c0bb535123"
+  integrity sha512-EK5rGZR9LEfLcskyR8UtLZ8n8DYUeVmf+eUx+deu/YpKDl5n4YBnRAXbUHVWl2DuJ5VFMZMjSELjeypPmAcnYA==
+
 "@alfalab/icons-glyph@^1.26.0", "@alfalab/icons-glyph@^1.70.0", "@alfalab/icons-glyph@^1.71.0":
   version "1.99.0"
   resolved "https://registry.yarnpkg.com/@alfalab/icons-glyph/-/icons-glyph-1.99.0.tgz#6c39d80750644b739fa8c599344404697e8d4920"
