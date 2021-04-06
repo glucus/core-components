@@ -8174,7 +8174,7 @@ cz-conventional-changelog@3.3.0:
 
 d@1, d@^1.0.1:
   version "1.0.1"
-  resolved "http://binary:80/artifactory/api/npm/npm/d/-/d-1.0.1.tgz#3408877294211b8df7257e9ecf6c5014290b83e9"
+  resolved "https://registry.yarnpkg.com/d/-/d-1.0.1.tgz#3408877294211b8df7257e9ecf6c5014290b83e9"
   integrity sha1-NAiHcpQhG433JX6ez2xQFCkLg+k=
   dependencies:
     es5-ext "^0.10.50"
