@@ -8175,7 +8175,7 @@ cz-conventional-changelog@3.3.0:
 d@1, d@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/d/-/d-1.0.1.tgz#3408877294211b8df7257e9ecf6c5014290b83e9"
-  integrity sha1-NAiHcpQhG433JX6ez2xQFCkLg+k=
+  integrity "sha1-hpgJU3LVjb7jRv/Qxwk/mfj561o= sha512-m62ShEObQ39CfralilEQRjH6oAMtNCV1xJyEx5LpRYUVN+EviphDgUc/F3hnYbADmkiNs67Y+3ylmlG7Lnu+FA=="
   dependencies:
     es5-ext "^0.10.50"
     type "^1.0.1"
